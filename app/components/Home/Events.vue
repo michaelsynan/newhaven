@@ -83,7 +83,7 @@ onBeforeUnmount(() => {
           />
         </svg>
         <NuxtLink
-          to="/Events"
+          to="/events"
           class="bg-primary/10 px-2 border-dotted mr-auto flex flex-row items-end gap-1 self-center md:self-start text-primary hover:text-secondary transition-colors cursor-pointer z-10 font-mono mt-4 hover:bg-primary/20 hover:shadow-md hover:-translate-y-0.5 transform hover:border-secondary/50 border border-transparent animate-fade-in-up"
         >
           <span>See All Events</span>
@@ -130,7 +130,7 @@ onBeforeUnmount(() => {
                 <UIcon name="i-mdi-chevron-right" class="text-2xl" />
               </button>
               <NuxtLink
-                :to="`/Events/${activeEvent.id}`"
+                :to="`/events/${activeEvent.id}`"
                 class="block w-full"
                 aria-label="View event details"
               >

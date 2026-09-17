@@ -37,7 +37,7 @@ const sources = [
                 "loc": "/Donate"
             },
             {
-                "loc": "/Events"
+                "loc": "/events"
             },
             {
                 "loc": "/contact"
