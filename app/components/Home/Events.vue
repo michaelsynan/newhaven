@@ -11,8 +11,8 @@ const showDesc = ref(false);
 const descRef = ref(null);
 const getInvolvedRef = ref(null);
 
-// Filter events marked for homepage display
-const events = allEvents.filter(event => event.homepage);
+// Show only currently featured events on the homepage.
+const events = allEvents.filter(event => event.featured);
 
 const activeIndex = ref(0);
 let rotationTimer: ReturnType<typeof setInterval> | undefined;
