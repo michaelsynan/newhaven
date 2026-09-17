@@ -235,7 +235,8 @@ export const events: Event[] = [
     firstOccurrence: "2026-08-02",
     title: "Jesus Week – Special Guests Kick Off Service",
     location: "Main Sanctuary",
-    description: "Kick off Jesus Week Queens with special guests. Join us for a powerful morning service!",
+    description:
+      "Kick off Jesus Week Queens with special guests. Join us for a powerful morning service!",
     type: "featured",
     featured: false,
     homepage: true,
@@ -248,7 +249,8 @@ export const events: Event[] = [
     firstOccurrence: "2026-08-08",
     title: "Community Kids Party",
     location: "Starlight Pavilion, 130-05 101 Ave., Richmond Hill, NY 11419",
-    description: "Free community kids party! Games, Dance & Music, Face Painting, Story Telling, Snacks, and Art & Craft. Hosted by New Haven Ministries. Info: 917-584-1464.",
+    description:
+      "Free community kids party! Games, Dance & Music, Face Painting, Story Telling, Snacks, and Art & Craft. Hosted by New Haven Ministries. Info: 917-584-1464.",
     type: "featured",
     featured: false,
     homepage: true,
@@ -261,7 +263,8 @@ export const events: Event[] = [
     firstOccurrence: "2026-08-10",
     title: "Jesus Week – Street Outreach & Evangelism",
     location: "Lefferts & Liberty Ave",
-    description: "Join us for street outreach and evangelism as part of Jesus Week Queens.",
+    description:
+      "Join us for street outreach and evangelism as part of Jesus Week Queens.",
     type: "featured",
     featured: false,
     homepage: false,
@@ -274,7 +277,8 @@ export const events: Event[] = [
     firstOccurrence: "2026-08-12",
     title: "Jesus Week – Street Outreach & Evangelism",
     location: "Lefferts & Liberty Ave",
-    description: "Join us for street outreach and evangelism as part of Jesus Week Queens.",
+    description:
+      "Join us for street outreach and evangelism as part of Jesus Week Queens.",
     type: "featured",
     featured: false,
     homepage: false,
@@ -287,7 +291,8 @@ export const events: Event[] = [
     firstOccurrence: "2026-08-15",
     title: "Jesus Week – March for Christ",
     location: "Starting from Lefferts & Liberty Ave to Smokey Park",
-    description: "March for Christ through the community as part of Jesus Week Queens.",
+    description:
+      "March for Christ through the community as part of Jesus Week Queens.",
     type: "featured",
     featured: false,
     homepage: false,
@@ -300,7 +305,8 @@ export const events: Event[] = [
     firstOccurrence: "2026-08-22",
     title: "Jesus Week – Health & Wellness",
     location: "Main Sanctuary",
-    description: "Post Jesus Week Health & Wellness event. Come be refreshed and renewed.",
+    description:
+      "Post Jesus Week Health & Wellness event. Come be refreshed and renewed.",
     type: "featured",
     featured: false,
     homepage: false,

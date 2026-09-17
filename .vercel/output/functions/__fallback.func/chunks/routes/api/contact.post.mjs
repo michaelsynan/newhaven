@@ -31,7 +31,7 @@ const contact_post = defineEventHandler(async (event) => {
     setResponseStatus(event, 400);
     return { status: "validation_error", errors };
   }
-  const subject = `TEST New Inquiry from ${name}`;
+  const subject = `New Inquiry from ${name}`;
   const html = `
     <h2>New Contact Form Submission</h2>
     <p><strong>Name:</strong> ${escapeHtml(name)}</p>
@@ -66,7 +66,7 @@ ${message}`;
   }
 });
 function escapeHtml(input) {
-  return input.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
+  return input.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/\"/g, "&quot;").replace(/'/g, "&#039;");
 }
 
 export { contact_post as default };

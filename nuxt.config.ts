@@ -14,6 +14,11 @@ export default defineNuxtConfig({
     "nuxt-resend",
   ],
 
+  runtimeConfig: {
+    resend: {
+      apiKey: process.env.NUXT_RESEND_API_KEY || "",
+    },
+  },
   site: {
     url: "https://newhavenministries.org",
     name: "New Haven Ministries",

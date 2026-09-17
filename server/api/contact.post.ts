@@ -27,8 +27,7 @@ export default defineEventHandler(async (event) => {
     return { status: "validation_error", errors };
   }
 
-  // Compose email content
-  const subject = `TEST New Inquiry from ${name}`;
+  const subject = `New Inquiry from ${name}`;
   const html = `
     <h2>New Contact Form Submission</h2>
     <p><strong>Name:</strong> ${escapeHtml(name)}</p>
@@ -58,12 +57,11 @@ export default defineEventHandler(async (event) => {
   }
 });
 
-// Simple HTML escape to avoid accidental HTML injection in email body
 function escapeHtml(input: string) {
   return input
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
+    .replace(/\"/g, "&quot;")
     .replace(/'/g, "&#039;");
 }

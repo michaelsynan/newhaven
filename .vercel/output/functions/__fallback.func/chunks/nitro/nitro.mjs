@@ -488,8 +488,8 @@ function _defu(baseObject, defaults, namespace = ".", merger) {
   if (!isPlainObject(defaults)) {
     return _defu(baseObject, {}, namespace, merger);
   }
-  const object = { ...defaults };
-  for (const key of Object.keys(baseObject)) {
+  const object = Object.assign({}, defaults);
+  for (const key in baseObject) {
     if (key === "__proto__" || key === "constructor") {
       continue;
     }
@@ -4506,7 +4506,7 @@ function _expandFromEnv(value) {
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/",
-    "buildId": "eaf09cb3-3eff-4bfb-9f58-ba983f059b5f",
+    "buildId": "4ee05f51-3df6-439b-9676-6f2f78522a34",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
