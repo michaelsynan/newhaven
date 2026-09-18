@@ -27,6 +27,13 @@ export default defineNuxtConfig({
     defaultLocale: "en",
   },
 
+  schemaOrg: {
+    enabled: false,
+  },
+  ogImage: {
+    enabled: false,
+  },
+
   ssr: false,
   nitro: {
     preset: "vercel",
